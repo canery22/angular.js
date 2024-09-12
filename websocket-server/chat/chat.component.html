@@ -1,0 +1,5 @@
+<div>
+    <div *ngFor="let message of messages">{{ message }}</div>
+    <input [(ngModel)]="newMessage" placeholder="Mesaj yazın" />
+    <button (click)="sendMessage()">Gönder</button>
+  </div>
